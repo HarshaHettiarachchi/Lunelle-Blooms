@@ -6,7 +6,7 @@ const flowers = [
     name: "Blush Rose Bouquet",
     category: "Roses",
     price: "¥4,800",
-    image: "/images/Blush Rose Bouquet.png",
+    image: "/Lunelle-Blooms/images/Blush Rose Bouquet.png",
     description:
       "Soft pink roses arranged with delicate greenery and baby's breath.",
   },
@@ -14,7 +14,7 @@ const flowers = [
     name: "Spring Tulip Bouquet",
     category: "Tulips",
     price: "¥4,200",
-    image: "/images/Spring Tulip Bouquet.png",
+    image: "/Lunelle-Blooms/images/Spring Tulip Bouquet.png",
     description:
       "Fresh pastel tulips creating a bright and cheerful bouquet.",
   },
@@ -22,7 +22,7 @@ const flowers = [
     name: "Golden Sunflowers",
     category: "Sunflowers",
     price: "¥3,800",
-    image: "/images/Golden Sunflowers.png",
+    image: "/Lunelle-Blooms/images/Golden Sunflowers.png",
     description:
       "Cheerful sunflowers bringing warmth and sunshine to every moment.",
   },
@@ -30,7 +30,7 @@ const flowers = [
     name: "Romantic Garden",
     category: "Bouquets",
     price: "¥5,500",
-    image: "/images/Romantic Garden.png",
+    image: "/Lunelle-Blooms/images/Romantic Garden.png",
     description:
       "A romantic mix of seasonal flowers with soft pastel colours.",
   },
@@ -38,7 +38,7 @@ const flowers = [
     name: "Pure White Blooms",
     category: "Bouquets",
     price: "¥4,600",
-    image: "/images/Pure White Blooms.png",
+    image: "/Lunelle-Blooms/images/Pure White Blooms.png",
     description:
       "Elegant white flowers designed for timeless and special moments.",
   },
@@ -46,7 +46,7 @@ const flowers = [
     name: "Pink Love",
     category: "Roses",
     price: "¥5,200",
-    image: "/images/Pink Love.png",
+    image: "/Lunelle-Blooms/images/Pink Love.png",
     description:
       "A beautiful pink arrangement created especially with love.",
   },

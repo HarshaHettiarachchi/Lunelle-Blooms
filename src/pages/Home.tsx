@@ -7,17 +7,17 @@ const featuredFlowers = [
   {
     name: "Blush Rose Bouquet",
     price: "¥4,800",
-    image: "/images/Blush Rose Bouquet.png",
+    image: "/Lunelle-Blooms/images/Blush Rose Bouquet.png",
   },
   {
     name: "Spring Tulip Bouquet",
     price: "¥4,200",
-    image: "/images/Spring Tulip Bouquet.png",
+    image: "/Lunelle-Blooms/images/Spring Tulip Bouquet.png",
   },
   {
     name: "Golden Sunflowers",
     price: "¥3,800",
-    image: "/images/Golden Sunflowers.png",
+    image: "/Lunelle-Blooms/images/Golden Sunflowers.png",
   },
 ];
 
@@ -203,7 +203,7 @@ export default function Home() {
               className="rounded-[35px] overflow-hidden"
             >
               <img
-                src="/images/hero-flower-shop.png"
+                src="/Lunelle-Blooms/images/hero-flower-shop.png"
                 alt="Lunelle Blooms florist"
                 className="w-full h-[500px] object-cover"
               />

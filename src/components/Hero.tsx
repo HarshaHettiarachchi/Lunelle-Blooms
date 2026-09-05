@@ -221,7 +221,7 @@ export default function Hero() {
             <div className="relative rounded-[40px] overflow-hidden shadow-2xl">
 
               <motion.img
-                src="/images/hero-flower-shop.png"
+                src="/Lunelle-Blooms/images/hero-flower-shop.png"
                 alt="Lunelle Blooms florist arranging flowers"
                 animate={{
                   y: [0, -6, 0],

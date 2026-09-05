@@ -30,7 +30,7 @@ export default function Footer() {
               className="inline-flex items-center gap-3"
             >
               <img
-                src="/images/logo.png"
+                src="/Lunelle-Blooms/images/logo.png"
                 alt="Lunelle Blooms"
                 className="w-14 h-14 object-contain"
               />

@@ -80,7 +80,7 @@ export default function About() {
               <div className="rounded-[40px] overflow-hidden shadow-xl">
 
                 <img
-                  src="/images/hero-flower-shop.png"
+                  src="/Lunelle-Blooms/images/hero-flower-shop.png"
                   alt="Lunelle Blooms florist"
                   className="w-full h-[520px] object-cover"
                 />

@@ -52,7 +52,7 @@ export default function Navbar() {
             className="flex items-center gap-3 shrink-0"
           >
             <img
-              src="/images/logo.png"
+              src="/Lunelle-Blooms/images/logo.png"
               alt="Lunelle Blooms"
               className="w-12 h-12 object-contain"
             />
