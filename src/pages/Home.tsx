@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Hero from "../components/Hero";
-import Footer from "../components/Footer";
 import Button from "../components/Button";
 
 const featuredFlowers = [
@@ -62,7 +61,6 @@ export default function Home() {
       {/* ================= FEATURED FLOWERS ================= */}
       <section className="bg-[#FFF8EE] py-24">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +86,6 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
             {featuredFlowers.map((flower, index) => (
               <motion.div
                 key={flower.name}
@@ -120,7 +117,6 @@ export default function Home() {
                 </div>
               </motion.div>
             ))}
-
           </div>
 
           <div className="text-center mt-12">
@@ -129,14 +125,12 @@ export default function Home() {
               href="/flowers"
             />
           </div>
-
         </div>
       </section>
 
       {/* ================= WHY CHOOSE US ================= */}
       <section className="bg-[#F3D5D9]/35 py-24">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -157,7 +151,6 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
@@ -183,18 +176,14 @@ export default function Home() {
                 </p>
               </motion.div>
             ))}
-
           </div>
-
         </div>
       </section>
 
       {/* ================= OUR STORY ================= */}
       <section className="bg-[#FFF8EE] py-24">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -244,16 +233,13 @@ export default function Home() {
                 />
               </div>
             </motion.div>
-
           </div>
-
         </div>
       </section>
 
       {/* ================= TESTIMONIALS ================= */}
       <section className="bg-[#3F5B4B] py-24">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -274,7 +260,6 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
             {testimonials.map((testimonial, index) => (
               <motion.div
                 key={testimonial.name}
@@ -300,16 +285,13 @@ export default function Home() {
                 </p>
               </motion.div>
             ))}
-
           </div>
-
         </div>
       </section>
 
       {/* ================= CTA ================= */}
       <section className="bg-[#FFF8EE] py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
-
           <p className="text-[#C9A86A] text-sm tracking-[4px] uppercase">
             Make Someone Smile
           </p>
@@ -331,11 +313,8 @@ export default function Home() {
               href="/flowers"
             />
           </div>
-
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }
